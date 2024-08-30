@@ -1,3 +1,5 @@
+
+
 import React from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -5,7 +7,8 @@ import HeroSection from './components/HeroSection';
 import AboutSection from './components/AboutSection';
 import PortfolioSection from './components/PortfolioSection';
 import ContactSection from './components/ContactSection';
-import ResumeSection from './components/ResumeSection'; // Import the ResumeSection
+import ResumeSection from './components/ResumeSection';
+import CertificatesSection from './components/CertificatesSection'; // Import the new section
 
 const App = () => {
   return (
@@ -13,8 +16,9 @@ const App = () => {
       <Header />
       <HeroSection />
       <AboutSection />
+      <ResumeSection />
       <PortfolioSection />
-      <ResumeSection /> {/* Add the ResumeSection */}
+      <CertificatesSection /> 
       <ContactSection />
       <Footer />
     </div>

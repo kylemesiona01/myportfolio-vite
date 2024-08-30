@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Additional global styles */
+
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #f9f9f9;
@@ -12,11 +12,14 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Poppins', sans-serif;
 }
 
-/* Custom colors */
+
 .bg-primary {
-  background-color: #1a202c; /* Custom dark color */
+  background-color: #1a202c; 
 }
 
 .text-primary {
-  color: #3182ce; /* Custom blue color */
+  color: #3182ce; 
+}
+html {
+  scroll-behavior: smooth;
 }
